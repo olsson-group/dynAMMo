@@ -1,0 +1,28 @@
+{
+    "inp_experimental": "data/toy/double-well/experimental-msm.h5",
+    "inp_calculated": [
+        "data/toy/double-well/simulation-msm.h5"
+    ],
+    "n_samples": 3,
+    "out": "out/double-well/",
+    "observable_function": "reigvecs",
+    "missing": false,
+    "experiments": [
+        "correlation"
+    ],
+    "lag": 10,
+    "dt_traj": 1,
+    "fraction_remaining": 1.0,
+    "alpha": -8,
+    "beta": 5000.0,
+    "omega_scale": 0.5,
+    "static_amm_eps": 0.05,
+    "lr": 0.005,
+    "lr_stiefel": 1e-14,
+    "lr_stationary-distribution": 0.001,
+    "eps": 0.01,
+    "loss_eps": 0.03,
+    "n_eigvals": 1,
+    "n_metastable_states": 2,
+    "config_file_name": "/Users/chris-mbp/switchdrive/research/dynAMMo/config/double-well-tutorial.json"
+}
