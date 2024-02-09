@@ -13,9 +13,10 @@ pip install dynammo
 Ensure you have Python 3.9 or newer installed. For a development version or to contribute, clone the repository and install the package using:
 
 ```bash
-git clone https://github.com/olsson-group/dynAMMo.git
-cd dynammo
+git clone https://github.com/olsson-group/dynAMMo.git dynAMMo
+cd dynAMMo
 pip install .
+pip install git+https://github.com/chrisdkolloff/dynamics_utils.git#egg=dynamics_utils
 ```
 
 ## Quick Start
